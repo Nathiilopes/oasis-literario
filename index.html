@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Oásis Literário</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Oásis Literário</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#sobre-a-livraria">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#categorias">
+                            <i class="bi bi-card-text me-1"></i>
+                            Categorias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#fale-conosco">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        
+        <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="w-100" src="./imagens/livros-recomendados/cafeteria.png" alt="">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="w-100" src="./imagens/livros-recomendados/livraria-interna.png" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            </div>
+        </div>
+        <div id="sobre-a-livraria" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./imagens/livros-recomendados/oasis-literário.png" class="d-block w-100 rounded" alt="">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">nós</span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate cupiditate, quibusdam tenetur ipsa iste odit odio at quos, officia tempora vel fugit amet perferendis facere tempore suscipit, earum sunt ipsum.</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque vitae error voluptates voluptatibus mollitia tempora dolore autem adipisci iure, consequuntur reprehenderit, illum architecto expedita inventore ea amet, placeat vero ipsa.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus obcaecati repudiandae, itaque dignissimos quidem totam quae aut rem quo eveniet? Quis earum nam pariatur ipsum incidunt saepe, officia sed rerum.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad possimus saepe praesentium earum expedita provident magnam iste vel excepturi doloribus iure officia alias, et dicta ea consectetur mollitia sed sint?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    <section id="categorias" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Biblioteca <span class="text-colored">virtual</span></h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-biblioteca">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#romance" class="fw-bold text-start nav-link text-colored active">Romance</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#filosofia" class="fw-bold text-start nav-link text-colored">Filosofia</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#fantasia" class="fw-bold text-start nav-link text-colored">Fantasia</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#biografia" class="fw-bold text-start nav-link text-colored">Biografia</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#infantis" class="fw-bold text-start nav-link text-colored">Infantis</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="romance">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-a-culpa-e-das-estrelas.png" alt="Livro A culpa é das estrelas">
+                                    <h5 class="fw-bold mt-2 text-colored">A culpa é das estrelas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-orgulho-e-preconceito.png" alt="Livro Orgulho e preconceito">
+                                    <h5 class="fw-bold mt-2 text-colored">Orgulho e preconceito</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-caninos-brancos.png" alt="Livro Caninos brancos">
+                                    <h5 class="fw-bold mt-2 text-colored">Caninos brancos</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-o-vendedor-de-sonhos.png" alt="Livro O vendedor de sonhos">
+                                    <h5 class="fw-bold mt-2 text-colored">O vendedor de sonhos</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="filosofia">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/a-gaia-ciencia.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-colored">A gaia Ciência</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-ecce-homo.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-colored">Ecce Homo</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-sidarta.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-colored">Sidartha</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-o-mundo-de-sofia.png" alt="">
+                                    <h5 class="fw-bold mt-2 text-colored">O mundo de Sofia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="fantasia">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/alice-no-pais-das-maravilhas.png" alt="Livro Alice no pais das maravilhas">
+                                    <h5 class="fw-bold mt-2 text-colored">Alice no pais das maravilhas</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/as-cronicas-de-narnia.png" alt="Livro As cronicas de Narnia">
+                                    <h5 class="fw-bold mt-2 text-colored">As cronicas de Narnia</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-harry-potter.png" alt="Livro Harry Potter">
+                                    <h5 class="fw-bold mt-2 text-colored">Harry Potter</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/a-guerra-dos-tronos.png" alt="Livro A guerra dos tronos">
+                                    <h5 class="fw-bold mt-2 text-colored">A guerra dos tronos</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="biografia">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/livro-leonardo-da-vinci.png" alt="Livro Leonardo da Vinci">
+                                    <h5 class="fw-bold mt-2 text-colored">Leonardo da Vinci - Biografia de um gênio</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/o-diario-de-anne-frank.png" alt="Livro O diario de Anne Frank">
+                                    <h5 class="fw-bold mt-2 text-colored">O diario de Anne Frank</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/ayrton-senna.png" alt="Livro Ayrton Senna">
+                                    <h5 class="fw-bold mt-2 text-colored">Ayrton Senna</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/chorao.png" alt="Livro Se não eu, quem vai fazer você feliz?: Minha história de amor com Chorão">
+                                    <h5 class="fw-bold mt-2 text-colored">Se não eu, quem vai fazer você feliz?: Minha história de amor com Chorão</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="infantis">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/o-corajoso-pinguim.png" alt="Livro O corajoso pinguim">
+                                    <h5 class="fw-bold mt-2 text-colored">O corajoso pinguim</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/o-menino-maluquinho.png" alt="Livro O menino maluquinho">
+                                    <h5 class="fw-bold mt-2 text-colored">O menino maluquinho</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/o-pequeno-principe.png" alt="Livro O pequeno principe">
+                                    <h5 class="fw-bold mt-2 text-colored">O pequeno principe</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="./imagens/livros-recomendados/quatro-estações-e-um-trem-doido.png" alt="Livro Quatro estações e um trem doido">
+                                    <h5 class="fw-bold mt-2 text-colored">Quatro estações e um trem doido</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis voluptatum </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div class="mb-3">
+                            <label for="Nome" class="form-label fw-bold text-colored">Seu nome</label>
+                            <input type="text" id="Nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (OPCIONAL)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored">Deixe um recado</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5 mt-4">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                        </h3>
+                        <p>
+                            Rua teste Exemplo, nº 123, Bairro bootstrap - Brasília - DF
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
